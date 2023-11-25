@@ -8039,6 +8039,7 @@
 #include "zov_modular_arkstation\modules\storytellers\storyteller_vote.dm"
 #include "zov_modular_arkstation\modules\storytellers\various.dm"
 #include "zov_modular_arkstation\modules\synth-charge\code.dm"
+#include "zov_modular_arkstation\modules\sleeper\code.dm"
 #include "zov_modular_arkstation\penis_modulars\code\corrupted_tongue.dm"
 #include "zov_modular_arkstation\penis_modulars\code\vehicles.dm"
 // END_INCLUDE
