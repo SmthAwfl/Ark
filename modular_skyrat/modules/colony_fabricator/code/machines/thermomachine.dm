@@ -12,7 +12,7 @@
 	/// The item we turn into when repacked
 	var/repacked_type = /obj/item/flatpacked_machine/thermomachine
 	/// Soundloop for while the thermomachine is turned on
-	var/datum/looping_sound/conditioner_running/soundloop
+	// var/datum/looping_sound/conditioner_running/soundloop
 
 /obj/machinery/atmospherics/components/unary/thermomachine/deployable/Initialize(mapload)
 	. = ..()
