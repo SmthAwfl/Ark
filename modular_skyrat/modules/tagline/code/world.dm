@@ -15,7 +15,7 @@
 	s += "Discord"
 	s += ")\]"
 	s += "<br>[CONFIG_GET(string/servertagline)]</a><br>"
-	s += "<a href='https://www.arkstaion.ru/'>Website</a>"
+	s += "<a href='https://www.arkstaion.ru/'>Website</a><br>"
 
 	var/n = 0
 	for (var/mob/M in GLOB.player_list)
@@ -30,8 +30,7 @@
 	else if (n > 0)
 		features += "~[n] player"
 
-	if (!host && hostedby)
-		features += "<b>[hostedby]</b>"
+	features += "RoundTime: [DisplayTimeText(world.time - SSticker.round_start_time, round_seconds_to = 1)]"
 
 	if (features)
 		s += "\[[jointext(features, ", ")]"
