@@ -21748,6 +21748,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
 "gEd" = (
@@ -25101,6 +25102,14 @@
 /obj/item/healthanalyzer,
 /turf/open/floor/plating,
 /area/station/engineering/storage/tech)
+"hHa" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/station/hallway/primary/fore)
 "hHb" = (
 /turf/closed/wall/r_wall,
 /area/station/ai_monitored/turret_protected/aisat/hallway)
@@ -37675,6 +37684,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
 "lwQ" = (
@@ -63036,6 +63046,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
 "thE" = (
@@ -236769,7 +236780,7 @@ gzO
 gmo
 wGG
 snv
-krQ
+hHa
 thI
 bWn
 oQE
@@ -237026,7 +237037,7 @@ kQC
 yeI
 mla
 aeV
-krQ
+hHa
 gYp
 bWn
 ylz
