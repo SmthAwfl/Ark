@@ -297,6 +297,14 @@
 			on = !on
 			update_use_power(on ? ACTIVE_POWER_USE : IDLE_POWER_USE)
 			investigate_log("was turned [on ? "on" : "off"] by [key_name(usr)]", INVESTIGATE_ATMOS)
+
+			// ARK STATION EDIT START
+			if(on)
+				soundloop.start()
+			if(!on)
+				soundloop.stop()
+			// ARK STATION EDIT END
+
 			. = TRUE
 		if("target")
 			var/target = params["target"]
