@@ -13044,7 +13044,7 @@
 /area/station/security/brig)
 "cwX" = (
 /turf/closed/wall,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "cxa" = (
 /obj/structure/window/spawner/directional/west,
 /obj/structure/window/spawner/directional/south,
@@ -22098,7 +22098,7 @@
 "eiW" = (
 /obj/structure/railing,
 /turf/closed/wall,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "eiY" = (
 /obj/structure/fence/door,
 /obj/machinery/door/firedoor/border_only{
@@ -26113,7 +26113,7 @@
 /area/station/hallway/primary/central/aft)
 "eUy" = (
 /turf/closed/wall/rust,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "eUG" = (
 /obj/effect/turf_decal/siding/blue/corner{
 	dir = 4
@@ -31989,7 +31989,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/curtain/bounty/start_closed,
 /turf/open/floor/plating,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "gcg" = (
 /obj/structure/lattice/catwalk,
 /turf/open/space/openspace,
@@ -43797,7 +43797,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/iron/smooth,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "isb" = (
 /obj/effect/mapping_helpers/burnt_floor,
 /obj/machinery/door/airlock/maintenance,
@@ -44516,7 +44516,7 @@
 	},
 /obj/effect/landmark/start/bitrunner,
 /turf/open/floor/iron/dark/small,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "izf" = (
 /obj/effect/turf_decal/trimline/purple/filled/warning{
 	dir = 8
@@ -45618,7 +45618,7 @@
 /area/station/common/arcade)
 "iLb" = (
 /turf/closed/wall/r_wall,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "iLd" = (
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Security Maintenance"
@@ -47961,7 +47961,7 @@
 /obj/structure/railing,
 /obj/effect/spawner/random/trash/graffiti,
 /turf/closed/wall/rust,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "jjf" = (
 /obj/item/kirbyplants/random,
 /obj/machinery/camera/directional/east{
@@ -52897,7 +52897,7 @@
 /obj/effect/landmark/start/bitrunner,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/small,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "kcW" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 9
@@ -55959,9 +55959,9 @@
 /obj/machinery/door/airlock/mining{
 	name = "Mining Office"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/supply/mining,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
+/obj/effect/mapping_helpers/airlock/access/any/supply/mining,
 /turf/open/floor/iron/dark/small,
 /area/station/cargo/miningoffice)
 "kFe" = (
@@ -56844,7 +56844,7 @@
 	icon_state = "dirt-flat-1"
 	},
 /turf/open/floor/iron/dark/small,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "kOB" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -57849,7 +57849,7 @@
 /obj/structure/railing/corner,
 /obj/effect/spawner/random/trash/graffiti,
 /turf/closed/wall/rust,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "laB" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -58893,7 +58893,7 @@
 /obj/effect/spawner/random/trash/mess,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/dark/small,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "lky" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -61530,7 +61530,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/start/bitrunner,
 /turf/open/floor/iron/dark/small,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "lKU" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold/general/visible{
@@ -71816,7 +71816,7 @@
 	pixel_y = 14
 	},
 /turf/open/floor/iron/dark/small,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "nLh" = (
 /obj/machinery/atmospherics/components/binary/pump/on{
 	dir = 1;
@@ -75073,7 +75073,7 @@
 	},
 /obj/structure/curtain/bounty/start_closed,
 /turf/open/floor/iron/dark/herringbone,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "opw" = (
 /obj/machinery/door/window/left{
 	dir = 4;
@@ -75895,7 +75895,7 @@
 /obj/effect/landmark/start/bitrunner,
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/dark/small,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "owS" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -77883,7 +77883,7 @@
 /obj/effect/turf_decal/stripes/white/line,
 /obj/structure/railing,
 /turf/closed/wall,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "oQQ" = (
 /obj/machinery/dish_drive/bullet,
 /obj/effect/turf_decal/delivery,
@@ -78052,7 +78052,7 @@
 	},
 /obj/structure/railing,
 /turf/closed/wall,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "oSX" = (
 /turf/open/floor/iron/dark,
 /area/station/security/corrections_officer)
@@ -78947,7 +78947,7 @@
 /obj/effect/landmark/start/bitrunner,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/smooth,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "pbS" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
@@ -80863,7 +80863,7 @@
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
 /turf/open/floor/iron/dark/small,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "pwj" = (
 /obj/machinery/disposal/bin,
 /obj/effect/turf_decal/delivery/white,
@@ -83907,7 +83907,7 @@
 "qaC" = (
 /obj/structure/sign/departments/cargo,
 /turf/closed/wall,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "qaH" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/circuit/green,
@@ -84360,7 +84360,7 @@
 "qeX" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/small,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "qfc" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -84718,7 +84718,7 @@
 	pixel_y = 3
 	},
 /turf/open/floor/iron/dark/small,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "qiq" = (
 /obj/machinery/atmospherics/components/binary/pump/on,
 /turf/closed/wall/r_wall,
@@ -89899,7 +89899,7 @@
 /turf/open/floor/iron/smooth_edge{
 	dir = 4
 	},
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "rfs" = (
 /obj/effect/turf_decal/box/white/corners{
 	dir = 1
@@ -93702,7 +93702,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/trash/crushed_can,
 /turf/open/floor/iron/dark/small,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "rSj" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/mining{
@@ -95326,7 +95326,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/spawner/random/trash/crushed_can,
 /turf/open/floor/iron/smooth,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "siB" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/bot,
@@ -100327,7 +100327,7 @@
 	icon_state = "dirt-flat-1"
 	},
 /turf/open/floor/iron/dark/small,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "teb" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/effect/turf_decal/stripes{
@@ -101486,7 +101486,7 @@
 "tpp" = (
 /obj/effect/spawner/random/trash/graffiti,
 /turf/closed/wall,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "tpx" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -101799,7 +101799,7 @@
 /obj/effect/spawner/random/trash/garbage,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/small,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "ttI" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -110031,7 +110031,7 @@
 /obj/machinery/door/airlock/mining{
 	name = "Mining Office"
 	},
-/obj/effect/mapping_helpers/airlock/access/all/supply/mining,
+/obj/effect/mapping_helpers/airlock/access/any/supply/mining,
 /turf/open/floor/iron/dark/small,
 /area/station/cargo/miningoffice)
 "uWe" = (
@@ -110140,7 +110140,7 @@
 "uXj" = (
 /obj/machinery/byteforge,
 /turf/open/floor/circuit/green,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "uXl" = (
 /obj/effect/landmark/event_spawn,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -110756,7 +110756,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/iron/smooth,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "vev" = (
 /obj/structure/bed/dogbed/ian,
 /mob/living/basic/pet/dog/corgi/ian,
@@ -118807,7 +118807,7 @@
 	},
 /obj/structure/railing,
 /turf/closed/wall/rust,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "wCa" = (
 /obj/effect/mapping_helpers/broken_floor,
 /obj/machinery/light/small/directional/south,
@@ -118982,7 +118982,7 @@
 /obj/structure/barricade/wooden/crude,
 /obj/structure/curtain/bounty/start_closed,
 /turf/open/floor/iron/dark/herringbone,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "wDh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -120455,7 +120455,7 @@
 "wSh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/smooth,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "wSi" = (
 /obj/structure/cable,
 /obj/effect/spawner/random/structure/steam_vent,
@@ -121724,7 +121724,7 @@
 	pixel_y = 12
 	},
 /turf/open/floor/iron/dark/small,
-/area/station/bitrunning/den)
+/area/station/cargo/bitrunning/den)
 "xfA" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/closet,

@@ -187,7 +187,7 @@
 	new /obj/item/clothing/head/fedora/inspector_hat(src)
 
 /obj/structure/closet/secure_closet/injection
-	name = "lethal injections"
+	name = "lethal injections locker"
 	req_access = list(ACCESS_HOS)
 
 /obj/structure/closet/secure_closet/injection/PopulateContents()
@@ -267,7 +267,7 @@
 
 /obj/structure/closet/secure_closet/contraband/armory
 	anchored = TRUE
-	name = "Contraband Locker"
+	name = "contraband locker"
 	req_access = list(ACCESS_ARMORY)
 
 /obj/structure/closet/secure_closet/contraband/heads
@@ -277,7 +277,6 @@
 
 /obj/structure/closet/secure_closet/armory1
 	name = "armory armor locker"
-	icon_state = "armory" // SKYRAT EDIT ADDITION - NEW ICON ADDED IN peacekeeper_lockers.dm
 	req_access = list(ACCESS_ARMORY)
 
 /obj/structure/closet/secure_closet/armory1/PopulateContents()
@@ -297,7 +296,8 @@
 
 /obj/structure/closet/secure_closet/armory2
 	name = "armory ballistics locker"
-	icon_state = "armory" // SKYRAT EDIT ADDITION - NEW ICON ADDED IN peacekeeper_lockers.dm
+	icon_state = "tac"
+	icon_door = "armory_shotgun"
 	req_access = list(ACCESS_ARMORY)
 
 /obj/structure/closet/secure_closet/armory2/PopulateContents()
@@ -310,7 +310,8 @@
 
 /obj/structure/closet/secure_closet/armory3
 	name = "armory energy gun locker"
-	icon_state = "armory" // SKYRAT EDIT ADDITION - NEW ICON ADDED IN peacekeeper_lockers.dm
+	icon_state = "tac"
+	icon_door = "armory_energy"
 	req_access = list(ACCESS_ARMORY)
 
 /obj/structure/closet/secure_closet/armory3/PopulateContents()
