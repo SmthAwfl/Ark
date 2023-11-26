@@ -16,7 +16,7 @@
 
 /obj/machinery/atmospherics/components/unary/thermomachine/deployable/Initialize(mapload)
 	. = ..()
-	soundloop = new(src, FALSE)
+	// soundloop = new(src, FALSE)
 	AddElement(/datum/element/repackable, repacked_type, 2 SECONDS)
 	AddElement(/datum/element/manufacturer_examine, COMPANY_FRONTIER)
 	flick("thermo_deploy", src)

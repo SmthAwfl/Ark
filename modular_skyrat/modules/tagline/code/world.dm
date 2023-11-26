@@ -3,12 +3,12 @@
 	var/list/features = list()
 
 	var/s = ""
-	var/hostedby
+	// var/hostedby // NOT USED
 	if(config)
 		var/server_name = CONFIG_GET(string/servername)
 		if (server_name)
 			s += "<b>[server_name]</b> &#8212; "
-		hostedby = CONFIG_GET(string/hostedby)
+		// hostedby = CONFIG_GET(string/hostedby) // NOT USED
 
 	s += " ("
 	s += "<a href=\"[CONFIG_GET(string/discord_link)]\">"
