@@ -140,7 +140,7 @@
 	siemens_coefficient = 0
 	slowdown_inactive = 1
 	slowdown_active = 0.5
-	ui_theme = "syndicate"
+	ui_theme = "inteq"
 	inbuilt_modules = list(/obj/item/mod/module/armor_booster)
 	allowed_suit_storage = list(
 		/obj/item/restraints/handcuffs,

@@ -488,6 +488,8 @@
 	)
 	skins = list(
 		"medical" = list(
+		MOD_ICON_OVERRIDE = 'zov_modular_arkstation/modules/clothing-update/icons/obj/clothing/mod.dmi', // Ark Station 13 Edit
+		MOD_WORN_ICON_OVERRIDE = 'zov_modular_arkstation/modules/clothing-update/icons/mob/clothing/mod.dmi', // Ark Station 13 Edit
 			HELMET_FLAGS = list(
 				UNSEALED_LAYER = NECK_LAYER,
 				UNSEALED_CLOTHING = SNUG_FIT,
@@ -585,6 +587,8 @@
 	)
 	skins = list(
 		"rescue" = list(
+		MOD_ICON_OVERRIDE = 'zov_modular_arkstation/modules/clothing-update/icons/obj/clothing/mod.dmi', // Ark Station 13 Edit
+		MOD_WORN_ICON_OVERRIDE = 'zov_modular_arkstation/modules/clothing-update/icons/mob/clothing/mod.dmi', // Ark Station 13 Edit
 			HELMET_FLAGS = list(
 				UNSEALED_LAYER = NECK_LAYER,
 				UNSEALED_CLOTHING = SNUG_FIT,
@@ -651,6 +655,8 @@
 	)
 	skins = list(
 		"research" = list(
+		MOD_ICON_OVERRIDE = 'zov_modular_arkstation/modules/clothing-update/icons/obj/clothing/mod.dmi', // Ark Station 13 Edit
+		MOD_WORN_ICON_OVERRIDE = 'zov_modular_arkstation/modules/clothing-update/icons/mob/clothing/mod.dmi', // Ark Station 13 Edit
 			HELMET_FLAGS = list(
 				UNSEALED_LAYER = null,
 				UNSEALED_CLOTHING = SNUG_FIT|THICKMATERIAL,
