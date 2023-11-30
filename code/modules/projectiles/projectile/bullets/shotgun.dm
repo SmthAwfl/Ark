@@ -85,7 +85,7 @@
 	stamina = 11
 	sharpness = NONE
 	embedding = null
-	speed = 1.2
+	speed = 1.4 // 1.2
 	stamina_falloff_tile = -0.25
 	ricochets_max = 4
 	ricochet_chance = 120

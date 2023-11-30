@@ -373,12 +373,12 @@
 
 //Not technically an override but oh well
 /obj/item/clothing/neck/security_cape // ARK STATION EDIT || REDSEC
-	// name = "security cape"
-	// desc = "A fashionable cape worn by security officers."
-	// icon = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi'
-	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi'
-	// icon_state = "cape_black"
-	// inhand_icon_state = "" //no unique inhands
+	name = "security cape"
+	desc = "A fashionable cape worn by security officers."
+	icon = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi'
+	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi'
+	icon_state = "cape_black"
+	inhand_icon_state = "" //no unique inhands
 	uses_advanced_reskins = TRUE
 	unique_reskin = list(
 		"Black Variant" = list(

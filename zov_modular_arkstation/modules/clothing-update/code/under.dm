@@ -74,3 +74,6 @@
 /obj/item/clothing/under/dress/wedding_dress/bride_blue/bride_red
 	name = "red bride dress"
 	icon_state = "bride_red"
+
+/obj/item/clothing/under/rank/security
+	worn_icon_digi = 'zov_modular_arkstation/modules/clothing-update/icons/mob/clothing/security_digi.dmi'
