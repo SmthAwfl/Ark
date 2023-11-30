@@ -44,47 +44,55 @@
 /*
 * BACKPACKS
 */
-// /obj/item/storage/backpack/security // ARK STATION EDIT || REDSEC
+/obj/item/storage/backpack/security // ARK STATION EDIT || REDSEC
 // 	// icon = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi'
 // 	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/back.dmi'
 // 	// lefthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_lefthand.dmi'
 // 	// righthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_righthand.dmi'
 // 	// icon_state = "backpack_security_black"
 // 	// inhand_icon_state = "backpack_security_black"
-// 	uses_advanced_reskins = FALSE
-// 	// unique_reskin = list(
-// 	// 	"Black Variant" = list(
-// 	// 		RESKIN_ICON_STATE = "backpack_security_black",
-// 	// 		RESKIN_WORN_ICON_STATE = "backpack_security_black",
-// 	// 		RESKIN_INHAND_STATE = "backpack_security_black"
-// 	// 	),
-// 	// 	"White Variant" = list(
-// 	// 		RESKIN_ICON_STATE = "backpack_security_white",
-// 	// 		RESKIN_WORN_ICON_STATE = "backpack_security_white",
-// 	// 		RESKIN_INHAND_STATE = "backpack_security_white"
-// 	// 	),
-// 	// )
+	uses_advanced_reskins = TRUE
+	unique_reskin = list(
+		"Black Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi',
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/back.dmi',
+			RESKIN_ICON_STATE = "backpack_security_black",
+			RESKIN_WORN_ICON_STATE = "backpack_security_black",
+			RESKIN_INHAND_STATE = "backpack_security_black"
+		),
+		"White Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi',
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/back.dmi',
+			RESKIN_ICON_STATE = "backpack_security_white",
+			RESKIN_WORN_ICON_STATE = "backpack_security_white",
+			RESKIN_INHAND_STATE = "backpack_security_white"
+		),
+	)
 
-// /obj/item/storage/backpack/satchel/sec // ARK STATION EDIT || REDSEC
+/obj/item/storage/backpack/satchel/sec // ARK STATION EDIT || REDSEC
 // 	// icon = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi'
 // 	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/back.dmi'
 // 	// lefthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_lefthand.dmi'
 // 	// righthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_righthand.dmi'
 // 	// icon_state = "satchel_security_black"
 // 	// inhand_icon_state = "satchel_security_black"
-// 	uses_advanced_reskins = FASLE
-// 	// unique_reskin = list(
-// 	// 	"Black Variant" = list(
-// 	// 		RESKIN_ICON_STATE = "satchel_security_black",
-// 	// 		RESKIN_WORN_ICON_STATE = "satchel_security_black",
-// 	// 		RESKIN_INHAND_STATE = "satchel_security_black"
-// 	// 	),
-// 	// 	"White Variant" = list(
-// 	// 		RESKIN_ICON_STATE = "satchel_security_white",
-// 	// 		RESKIN_WORN_ICON_STATE = "satchel_security_white",
-// 	// 		RESKIN_INHAND_STATE = "satchel_security_white"
-// 	// 	),
-// 	// )
+	uses_advanced_reskins = TRUE
+	unique_reskin = list(
+		"Black Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi',
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/back.dmi',
+			RESKIN_ICON_STATE = "satchel_security_black",
+			RESKIN_WORN_ICON_STATE = "satchel_security_black",
+			RESKIN_INHAND_STATE = "satchel_security_black"
+		),
+		"White Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi',
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/back.dmi',
+			RESKIN_ICON_STATE = "satchel_security_white",
+			RESKIN_WORN_ICON_STATE = "satchel_security_white",
+			RESKIN_INHAND_STATE = "satchel_security_white"
+		),
+	)
 
 /obj/item/storage/backpack/duffelbag/sec // ARK STATION EDIT || REDSEC
 	// icon = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi'
@@ -93,47 +101,59 @@
 	// righthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_righthand.dmi'
 	// icon_state = "duffel_security_black"
 	// inhand_icon_state = "duffel_security_black"
-	// uses_advanced_reskins = TRUE
-	// unique_reskin = list(
-	// 	"Black Variant" = list(
-	// 		RESKIN_ICON_STATE = "duffel_security_black",
-	// 		RESKIN_WORN_ICON_STATE = "duffel_security_black",
-	// 		RESKIN_INHAND_STATE = "duffel_security_black"
-	// 	),
-	// 	"White Variant" = list(
-	// 		RESKIN_ICON_STATE = "duffel_security_white",
-	// 		RESKIN_WORN_ICON_STATE = "duffel_security_white",
-	// 		RESKIN_INHAND_STATE = "duffel_security_white"
-	// 	),
-	// )
+	uses_advanced_reskins = TRUE
+	unique_reskin = list(
+		"Black Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi',
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/back.dmi',
+			RESKIN_ICON_STATE = "duffel_security_black",
+			RESKIN_WORN_ICON_STATE = "duffel_security_black",
+			RESKIN_INHAND_STATE = "duffel_security_black"
+		),
+		"White Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi',
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/back.dmi',
+			RESKIN_ICON_STATE = "duffel_security_white",
+			RESKIN_WORN_ICON_STATE = "duffel_security_white",
+			RESKIN_INHAND_STATE = "duffel_security_white"
+		),
+	)
 
 /*
 * BELTS
 */
-// /obj/item/storage/belt/security // ARK STATION EDIT || REDSEC
+/obj/item/storage/belt/security // ARK STATION EDIT || REDSEC
 	// icon = 'modular_skyrat/master_files/icons/obj/clothing/belts.dmi'
 	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/belt.dmi'
 	// icon_state = "belt_white"
 	// worn_icon_state = "belt_white"
-	// uses_advanced_reskins = TRUE
-	// unique_reskin = list(
-	// 	"Black Variant" = list(
-	// 		RESKIN_ICON_STATE = "belt_black",
-	// 		RESKIN_WORN_ICON_STATE = "belt_black"
-	// 	),
-	// 	"Blue Variant" = list(
-	// 		RESKIN_ICON_STATE = "belt_blue",
-	// 		RESKIN_WORN_ICON_STATE = "belt_blue"
-	// 	),
-	// 	"White Variant" = list(
-	// 		RESKIN_ICON_STATE = "belt_white",
-	// 		RESKIN_WORN_ICON_STATE = "belt_white"
-	// 	),
-	// 	"Slim Variant" = list(
-	// 		RESKIN_ICON_STATE = "belt_slim",
-	// 		RESKIN_WORN_ICON_STATE = "belt_slim"
-	// 	),
-	// )
+	uses_advanced_reskins = TRUE
+	unique_reskin = list(
+		"Black Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/belts.dmi',
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/belt.dmi',
+			RESKIN_ICON_STATE = "belt_black",
+			RESKIN_WORN_ICON_STATE = "belt_black"
+		),
+		"Blue Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/belts.dmi',
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/belt.dmi',
+			RESKIN_ICON_STATE = "belt_blue",
+			RESKIN_WORN_ICON_STATE = "belt_blue"
+		),
+		"White Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/belts.dmi',
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/belt.dmi',
+			RESKIN_ICON_STATE = "belt_white",
+			RESKIN_WORN_ICON_STATE = "belt_white"
+		),
+		"Slim Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/belts.dmi',
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/belt.dmi',
+			RESKIN_ICON_STATE = "belt_slim",
+			RESKIN_WORN_ICON_STATE = "belt_slim"
+		),
+	)
 
 /obj/item/storage/belt/security/webbing
 	uses_advanced_reskins = FALSE
@@ -338,29 +358,44 @@
 * NECK
 */
 /obj/item/clothing/neck/cloak/hos
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi'
-	icon_state = "hoscloak_blue"
+	// icon = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi'
+	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi'
+	// icon_state = "hoscloak_blue"
+	uses_advanced_reskins = TRUE
+	unique_reskin = list(
+		"Blue Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi', // Ark Station 13 Edit
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi', // Ark Station 13 Edit
+			RESKIN_ICON_STATE = "hoscloak_blue",
+			RESKIN_WORN_ICON_STATE = "hoscloak_blue"
+		),
+	)
 
 //Not technically an override but oh well
 /obj/item/clothing/neck/security_cape // ARK STATION EDIT || REDSEC
-	name = "security cape"
-	desc = "A fashionable cape worn by security officers."
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi'
-	icon_state = "cape_black"
-	inhand_icon_state = "" //no unique inhands
+	// name = "security cape"
+	// desc = "A fashionable cape worn by security officers."
+	// icon = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi'
+	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi'
+	// icon_state = "cape_black"
+	// inhand_icon_state = "" //no unique inhands
 	uses_advanced_reskins = TRUE
 	unique_reskin = list(
 		"Black Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi', // Ark Station 13 Edit
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi', // Ark Station 13 Edit
 			RESKIN_ICON_STATE = "cape_black",
 			RESKIN_WORN_ICON_STATE = "cape_black"
 		),
 		"Blue Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi', // Ark Station 13 Edit
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi', // Ark Station 13 Edit
 			RESKIN_ICON_STATE = "cape_blue",
 			RESKIN_WORN_ICON_STATE = "cape_blue"
 		),
 		"White Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi', // Ark Station 13 Edit
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi', // Ark Station 13 Edit
 			RESKIN_ICON_STATE = "cape_white",
 			RESKIN_WORN_ICON_STATE = "cape_white"
 		),
@@ -450,21 +485,27 @@
 	// icon = 'modular_skyrat/master_files/icons/obj/clothing/suits/armor.dmi'
 	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suits/armor.dmi'
 	// icon_state = "vest_white"
-	// uses_advanced_reskins = TRUE
-	// unique_reskin = list(
-	// 	"Black Variant" = list(
-	// 		RESKIN_ICON_STATE = "vest_black",
-	// 		RESKIN_WORN_ICON_STATE = "vest_black"
-	// 	),
-	// 	"Blue Variant" = list(
-	// 		RESKIN_ICON_STATE = "vest_blue",
-	// 		RESKIN_WORN_ICON_STATE = "vest_blue"
-	// 	),
-	// 	"White Variant" = list(
-	// 		RESKIN_ICON_STATE = "vest_white",
-	// 		RESKIN_WORN_ICON_STATE = "vest_white"
-	// 	),
-	// )
+	uses_advanced_reskins = TRUE
+	unique_reskin = list(
+		"Black Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/suits/armor.dmi', // Ark Station 13 Edit
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/suits/armor.dmi', // Ark Station 13 Edit
+			RESKIN_ICON_STATE = "vest_black",
+			RESKIN_WORN_ICON_STATE = "vest_black"
+		),
+		"Blue Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/suits/armor.dmi', // Ark Station 13 Edit
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/suits/armor.dmi', // Ark Station 13 Edit
+			RESKIN_ICON_STATE = "vest_blue",
+			RESKIN_WORN_ICON_STATE = "vest_blue"
+		),
+		"White Variant" = list(
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/suits/armor.dmi', // Ark Station 13 Edit
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/suits/armor.dmi', // Ark Station 13 Edit
+			RESKIN_ICON_STATE = "vest_white",
+			RESKIN_WORN_ICON_STATE = "vest_white"
+		),
+	)
 
 /obj/item/clothing/suit/armor/hos
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON

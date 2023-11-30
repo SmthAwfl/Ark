@@ -7992,6 +7992,7 @@
 #include "zov_modular_arkstation\modules\monkestation-addons\interact-particles\code.dm"
 #include "zov_modular_arkstation\modules\monkestation-addons\preety-blood\code.dm"
 #include "zov_modular_arkstation\modules\nc-additions\code\nc_additions.dm"
+#include "zov_modular_arkstation\modules\new-banners\code.dm"
 #include "zov_modular_arkstation\modules\new-blastdoor-sprites\code.dm"
 #include "zov_modular_arkstation\modules\new-boxes-sprites\code.dm"
 #include "zov_modular_arkstation\modules\new-cap-and-pulse-weapon-sprites\code.dm"

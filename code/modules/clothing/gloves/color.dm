@@ -23,7 +23,19 @@
 			RESKIN_ICON_STATE = "peacekeeper_gloves",
 			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/hands.dmi',
 			RESKIN_WORN_ICON_STATE = "peacekeeper"
-		)
+		),
+		"Blue Variant" = list( // ARK STATION SKIN ADD
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/gloves.dmi',
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/hands.dmi',
+			RESKIN_ICON_STATE = "gloves_blue",
+			RESKIN_WORN_ICON_STATE = "gloves_blue"
+		),
+		"White Variant" = list( // ARK STATION SKIN ADD
+			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/gloves.dmi',
+			RESKIN_WORN_ICON = 'modular_skyrat/master_files/icons/mob/clothing/hands.dmi',
+			RESKIN_ICON_STATE = "gloves_white",
+			RESKIN_WORN_ICON_STATE = "gloves_white"
+		),
 	)
 	// SKYRAT EDIT ADDITION END
 
