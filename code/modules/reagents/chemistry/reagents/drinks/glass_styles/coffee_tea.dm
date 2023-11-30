@@ -30,7 +30,7 @@
 	required_drink_type = /datum/reagent/consumable/icetea
 	name = "iced tea"
 	desc = "All natural, antioxidant-rich flavour sensation."
-	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	// icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "icedteaglass"
 
 /datum/glass_style/drinking_glass/soy_latte
@@ -51,7 +51,7 @@
 	required_drink_type = /datum/reagent/consumable/pumpkin_latte
 	name = "pumpkin latte"
 	desc = "A mix of coffee and pumpkin juice."
-	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	// icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "pumpkin_latte"
 
 /datum/glass_style/has_foodtype/drinking_glass/hot_coco
@@ -65,7 +65,7 @@
 	required_drink_type = /datum/reagent/consumable/italian_coco
 	name = "glass of italian coco"
 	desc = "A spin on a winter favourite, made to please."
-	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	// icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "italiancoco"
 
 /datum/glass_style/drinking_glass/mushroom_tea
@@ -78,5 +78,5 @@
 	required_drink_type = /datum/reagent/consumable/t_letter
 	name = "glass of T"
 	desc = "The 20th."
-	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	// icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "tletter"

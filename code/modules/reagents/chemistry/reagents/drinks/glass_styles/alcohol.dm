@@ -117,14 +117,14 @@
 	required_drink_type = /datum/reagent/consumable/ethanol/goldschlager
 	name = "glass of goldschlager"
 	desc = "100% proof that teen girls will drink anything with gold in it."
-	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	// icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "goldschlagerglass"
 
 /datum/glass_style/drinking_glass/patron
 	required_drink_type = /datum/reagent/consumable/ethanol/patron
 	name = "glass of patron"
 	desc = "Drinking patron in the bar, with all the subpar ladies."
-	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	// icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "patronglass"
 
 /datum/glass_style/drinking_glass/sake
@@ -179,28 +179,28 @@
 	required_drink_type = /datum/reagent/consumable/ethanol/coconut_rum
 	name = "glass of coconut rum"
 	desc = "Breathe in and relax, you're on vacation until this glass is empty."
-	icon = 'icons/obj/drinks/drinks.dmi'
+	// icon = 'icons/obj/drinks/drinks.dmi'
 	icon_state = "ginvodkaglass"
 
 /datum/glass_style/drinking_glass/yuyake
 	required_drink_type = /datum/reagent/consumable/ethanol/yuyake
 	name = "glass of yūyake"
 	desc = "It's the saccharine essence of the 70s in a glass... the 1970s, that is!"
-	icon = 'icons/obj/drinks/drinks.dmi'
+	// icon = 'icons/obj/drinks/drinks.dmi'
 	icon_state = "glass_red"
 
 /datum/glass_style/drinking_glass/shochu
 	required_drink_type = /datum/reagent/consumable/ethanol/shochu
 	name = "glass of shochu"
 	desc = "A glass of strong rice wine."
-	icon = 'icons/obj/drinks/drinks.dmi'
+	// icon = 'icons/obj/drinks/drinks.dmi'
 	icon_state = "ginvodkaglass"
 
 /datum/glass_style/drinking_glass/rice_beer
 	required_drink_type = /datum/reagent/consumable/ethanol/rice_beer
 	name = "glass of rice beer"
 	desc = "A glass of fine, light rice beer. Best enjoyed cold."
-	icon = 'icons/obj/drinks/drinks.dmi'
+	// icon = 'icons/obj/drinks/drinks.dmi'
 	icon_state = "rice_beer"
 
 // Shot glasses

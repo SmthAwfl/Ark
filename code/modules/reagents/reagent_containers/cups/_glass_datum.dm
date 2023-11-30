@@ -85,7 +85,7 @@ GLOBAL_LIST_INIT(glass_style_singletons, create_glass_styles())
 
 /datum/glass_style/drinking_glass
 	required_container_type = /obj/item/reagent_containers/cup/glass/drinkingglass
-	icon = 'icons/obj/drinks/drinks.dmi'
+	// icon = 'icons/obj/drinks/drinks.dmi'
 
 /datum/glass_style/shot_glass
 	required_container_type = /obj/item/reagent_containers/cup/glass/drinkingglass/shotglass
@@ -97,7 +97,7 @@ GLOBAL_LIST_INIT(glass_style_singletons, create_glass_styles())
 
 /datum/glass_style/has_foodtype/drinking_glass
 	required_container_type = /obj/item/reagent_containers/cup/glass/drinkingglass
-	icon = 'icons/obj/drinks/drinks.dmi'
+	// icon = 'icons/obj/drinks/drinks.dmi'
 
 /datum/glass_style/has_foodtype/juicebox
 	required_container_type = /obj/item/reagent_containers/cup/glass/bottle/juice/smallcarton

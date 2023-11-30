@@ -37,5 +37,5 @@
 	required_drink_type = /datum/reagent/consumable/coconut_milk
 	name = "glass of coconut milk"
 	desc = "The essence of the tropics, contained safely within a glass."
-	icon = 'icons/obj/drinks/drinks.dmi'
+	// icon = 'icons/obj/drinks/drinks.dmi'
 	icon_state = "glass_white"

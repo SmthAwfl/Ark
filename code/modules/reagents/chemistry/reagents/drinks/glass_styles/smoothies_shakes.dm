@@ -54,7 +54,7 @@
 	required_drink_type = /datum/reagent/consumable/gibbfloats
 	name = "Gibbfloat"
 	desc = "Dr. Gibb with ice cream on top."
-	icon = 'icons/obj/drinks/mixed_drinks.dmi'
+	// icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "gibbfloats"
 
 /datum/glass_style/drinking_glass/strawberry_banana
