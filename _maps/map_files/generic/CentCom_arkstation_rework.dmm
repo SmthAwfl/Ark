@@ -11601,6 +11601,13 @@
 	},
 /turf/open/indestructible/dark,
 /area/centcom/central_command_areas/briefing)
+"WW" = (
+/obj/effect/turf_decal/tile/brown/fourcorners,
+/mob/living/basic/carp/brown/beret{
+	name = "Nikolas"
+	},
+/turf/open/indestructible/dark,
+/area/centcom/central_command_areas/briefing)
 "WX" = (
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/iron/grimy,
@@ -49749,7 +49756,7 @@ EN
 Tg
 JA
 ag
-bO
+WW
 OL
 cz
 ZN
